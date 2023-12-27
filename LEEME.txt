@@ -1,0 +1,20 @@
+Fierro Casanova, Pilar  819658@unizar.es    a819658
+Brizuela Garcia, Oscar  820773@unizar.es    a820773
+
+Para la ejecución del programa se debe ejecutar el siguiente comando:
+
+bash ejecutar1.sh
+
+El programa compilará y ejecutara el código generando un fichero con datos para su posterior simulación.
+Si solo se desea generar el fichero con los datos de un grafo debe ejecutarse el siguiente comando desde la terminal de Visual (en Windows)
+python graph_generator.py
+
+Y para generar una simulación si ya se cuenta con el fichero .txt con los datos de entrada generados
+g++ main.cc -o main 
+./main
+
+Los ficheros fuente entregados son los siguientes:
+- graph_generator.py
+- main.cc
+- No se ha incluido ningún fichero .txt con los datos de entrada puesto que al ejecutar el script lo generará para posteriormente proceder a su "simulación".
+La correspondiente descripción de los ficheros en detalle y recopilación de las pruebas se encuentra en la memoria
